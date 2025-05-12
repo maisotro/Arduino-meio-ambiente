@@ -7,8 +7,8 @@
 #include "Wire.h"
 
 
-const char *ssid     = "maisotro";       // nome do seu roteador WIFI (SSID)
-const char *password = "Pi314quinze";       // senha do roteador WIFI
+const char *ssid     = "SSID";       // nome do seu roteador WIFI (SSID)
+const char *password = "senha";       // senha do roteador WIFI
 
 WiFiUDP ntpUDP;
 // Definindo o Servidor de relogio NTP Brasil, ajusta relogio UTC -3 horas, intervalo de atualizacao em milisegundos
